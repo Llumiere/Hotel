@@ -44,6 +44,7 @@ public class RoomDao {
                 rb.setImages(rs.getString("Images"));
                 
                 room.add(rb);
+                System.out.println("");
             }
             
         } catch (Exception e) {
